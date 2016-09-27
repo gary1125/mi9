@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>mi9 test</id>
+    <id>Humanizer</id>
     <version>$version$</version>
-    <authors>Gary</authors>
-    <owners>Gary</owners>
-    <iconUrl>https://github.com/gary1125/mi9.git</iconUrl>
+    <title>Humanizer</title>
+    <authors>Mehdi Khalili</authors>
+    <owners>Mehdi Khalili</owners>
+    <projectUrl>https://github.com/MehdiK/Humanizer</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This is a test.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2016</copyright>
+    <description>A framework that turns your normal strings, type names, enums and DateTime into a human friendly format and provides human friendly API for DateTime, TimeSpan etc</description>
+    <copyright>Copyright 2012-2013  Mehdi Khalili</copyright>
+    <licenseUrl>https://github.com/MehdiK/Humanizer/blob/master/LICENSE</licenseUrl>
+    <releaseNotes>
+      In this version we changed the library to Portable Class Library. There are no breaking changes.
+    </releaseNotes>
   </metadata>
   <files>
-  	<file src="challenge\**" exclude="challenge\**\*.cs" target="release\mi9_$version$_$env.BUILD_START_TIME$" />
+    <file src="challenge\bin\Release\**" target="lib\portable-win+net40+sl50+wp8" />
+    <file src="challenge\**\*.cs" exclude="**\obj\**\*.*" target="src" />
   </files>
 </package>
