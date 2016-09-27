@@ -12,6 +12,6 @@
     <copyright>Copyright 2016</copyright>
   </metadata>
   <files>
-  	<file src="challenge/**" exclude="challenge/**/*.cs" target="release/mi9_$version$_$env.BUILD_START_TIME$" />
+  	<file src="challenge\**" exclude="challenge\**\*.cs" target="release\mi9_$version$_$env.BUILD_START_TIME$" />
   </files>
 </package>
