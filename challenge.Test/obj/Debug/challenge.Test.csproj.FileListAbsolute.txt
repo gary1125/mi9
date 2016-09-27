@@ -1,0 +1,5 @@
+C:\Projects\mi9\challenge.Test\bin\Debug\challenge.Test.dll
+C:\Projects\mi9\challenge.Test\bin\Debug\challenge.Test.pdb
+C:\Projects\mi9\challenge.Test\obj\Debug\challenge.Test.csprojResolveAssemblyReference.cache
+C:\Projects\mi9\challenge.Test\obj\Debug\challenge.Test.dll
+C:\Projects\mi9\challenge.Test\obj\Debug\challenge.Test.pdb
